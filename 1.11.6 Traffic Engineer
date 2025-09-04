@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class TrafficEngineer {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        final double ACCELERATION = 3.0;
+
+        System.out.print("Enter the onramp distance (m): ");
+        double distance = scanner.nextDouble();
+
+        double time = calculateTime(ACCELERATION, distance);
+
+        System.out.printf("With a distance of %.1fm, the time to accelerate down it is: %.1fs%n", distance, time);
+
+        scanner.close();
+    }
+
+    public static double calculateTime(double acceleration, double distance) {
+        return Math.sqrt((2 * distance) / acceleration);
+    }
+}
