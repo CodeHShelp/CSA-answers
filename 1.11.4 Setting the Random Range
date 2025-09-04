@@ -1,0 +1,16 @@
+public class RandomGenerator {
+    public static void main(String[] args) {
+        
+        int dieRoll = (int)(Math.random() * 6) + 1;
+        System.out.println("1. Die roll (1-6): " + dieRoll);
+
+        int pointsDeducted = (int)(Math.random() * 21) + 10;
+        System.out.println("2. Points deducted (10-30): " + pointsDeducted);
+
+        int treasureSuccess = (int)(Math.random() * 2);
+        System.out.println("3. Treasure chest success (0 or 1): " + treasureSuccess);
+
+        int encryptionKey = (int)(Math.random() * 999999) + 1000001;
+        System.out.println("4. Encryption key (1,000,001 - 1,999,999): " + encryptionKey);
+    }
+}
