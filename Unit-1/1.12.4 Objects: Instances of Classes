@@ -1,0 +1,5 @@
+B- An object is a data type that contains both attributes and actions.
+A- A class definition specifies the attributes and behavior of every object that will be made.
+D- Defined objects as copies of the class
+C- Every Pineapple object will have the same attributes.
+B- A Java object is stored in memory, and its variable contains a reference (or memory address) to the object’s location.
