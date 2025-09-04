@@ -1,0 +1,19 @@
+public class SystemRunner {
+    public static void main(String[] args) {
+
+        
+
+        Library myLibrary = new Library("Central Library", "123 Main Street", 5000);
+
+
+        Book myBook = new Book("The Great Gatsby", "F. Scott Fitzgerald", 180);
+        
+
+        Member myMember = new Member("Jane Doe", 101, false);
+
+
+        System.out.println(myLibrary);
+        System.out.println(myBook);
+        System.out.println(myMember);
+    }
+}
