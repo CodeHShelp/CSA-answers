@@ -1,0 +1,22 @@
+public class Geometry {
+
+
+    public static double getCircleArea(double radius) {
+
+        return Math.PI * Math.pow(radius, 2);
+    }
+
+    public static double getSphereVolume(double radius) {
+
+        return (4.0 / 3.0) * Math.PI * Math.pow(radius, 3);
+    }
+    
+    
+    public static double getCircleCircumference(double radius) {
+        return 2 * Math.PI * radius;
+    }
+    
+    public static double getSphereSurfaceArea(double radius) {
+        return 4 * Math.PI * Math.pow(radius, 2);
+    }
+}

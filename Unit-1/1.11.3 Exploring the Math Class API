@@ -1,0 +1,36 @@
+public class MathProgram {
+    public static void main(String[] args) {
+        double power = Math.pow(5, 3);
+        System.out.print("5^3 = ");
+        System.out.println(power);
+
+        double absolute = Math.abs(-20);
+        System.out.print("Absolute value of -20 = ");
+        System.out.println(absolute);
+
+        double square = Math.sqrt(144);
+        System.out.print("Square root of 144 = ");
+        System.out.println(square);
+
+        int random = (int) (Math.random() * 11) + 10;
+        System.out.print("Random int between 10 and 20 = ");
+        System.out.println(random);
+
+        // New methods added below
+        double max_value = Math.max(25.5, 10.2);
+        System.out.print("Maximum of 25.5 and 10.2 = ");
+        System.out.println(max_value);
+
+        double min_value = Math.min(7.8, 15.3);
+        System.out.print("Minimum of 7.8 and 15.3 = ");
+        System.out.println(min_value);
+
+        long rounded_value = Math.round(4.7);
+        System.out.print("Rounded value of 4.7 = ");
+        System.out.println(rounded_value);
+
+        double ceiling_value = Math.ceil(9.1);
+        System.out.print("Ceiling value of 9.1 = ");
+        System.out.println(ceiling_value);
+    }
+}

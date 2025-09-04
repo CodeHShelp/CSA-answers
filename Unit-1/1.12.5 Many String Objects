@@ -1,0 +1,16 @@
+public class StringObjects {
+    public static void main(String[] args) {
+
+        String stringOne = "Hello";
+        String stringTwo = "World";
+        String stringThree = stringOne; // This makes stringThree reference the same object as stringOne
+
+
+        stringOne = "Goodbye";
+
+
+        System.out.println("stringOne: " + stringOne);
+        System.out.println("stringTwo: " + stringTwo);
+        System.out.println("stringThree: " + stringThree);
+    }
+}

@@ -1,0 +1,5 @@
+Q1- (D) public static String joinAll(String on, String two, String three)
+
+Q2- (D) Options I,II, and IV
+
+Q3- (C) Line 6 should have Update. in front of render(element); and line 9 needs a . in between Update and publish(element);

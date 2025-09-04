@@ -1,0 +1,44 @@
+System.out.println("Hello world."); - char int myVarName = 5; - intiger boolean imABoolean = true; - Boolean
+double average = (int) floorTotal / currResidents; - Casting
+numStrikeOuts +=1;
+One time it could mater to have a double vs a int is when your doing exact measurements in an experiment
+2
+creating a new scanner object
+ public static void main(String[] args) 
+    {
+        Scanner input = new Scanner(System.in);
+     }
+public int add(int x, int y)
+{
+    int sum = x + y;
+    return sum;
+}
+One way I find math class I think is useful is the is that you can use math.random to make a dice as it produces random integers
+its because string.length uses instance method while math.sqrt uses static method
+3
+a compound Boolean statement - boolean isSunny = noClouds &&  notNight;
+boolean isSunny = (noClouds true) || (noNight true)
+== compares two things in the same place of memory while .equals passes through paramaters.
+== strings can cause problems because they don't check all memory leading to problems when it should be true
+4
+int i = 5;
+System.out.println("Initiating countdown:");
+while(i >= 0) {
+  System.out.println(i + "...");
+  i--;
+}
+this while loop prints a countdown from 5 
+for(int i = 0; i < 10; i++)
+        {
+            System.out.println(i);
+        }
+the while loop from before requires the parameter from before to go to down to 5 whilst this for loop initiates a variable of its own and depends on the variable being less then 10
+for (int row = 1; row < 6; row++) {
+    // Original loop inside
+    for(int count = 1; count < 6; count++) {
+        System.out.print(count * row + " " );
+    }
+    System.out.println();
+}
+this nested loop greatly increases the amount of rows and columns made
+the kind of loop you would use to repeat till a user is correct is a while loop because while they are wrong it would be repeated.

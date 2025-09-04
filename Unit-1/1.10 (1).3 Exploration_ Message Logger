@@ -1,0 +1,27 @@
+public class LogRunner {
+    public static void main(String[] args) {
+        // Initiate log for computer system
+        String log = "Computer System R48 Log:\n";
+
+        // Add messages to log
+        log = Logger.logInfo(log, "Application started successfully.");
+        log = Logger.logWarning(log, "Low memory detected.");
+        log = Logger.logError(log, "An unexpected error occurred."); // Corrected to logError
+
+        // Add the missing log message for application restart
+        log = Logger.logInfo(log, "Application restarted successfully."); // **This line was added
+
+        // Print out log
+        System.out.println(log);
+
+        // Use helper method to reset log, then print
+        log = resetLog(log, "R52"); // Assign the returned value back to log
+        System.out.println(); // Prints an empty line as in the expected output
+        System.out.println(log);
+    }
+
+    // Define the resetLog method
+    public static String resetLog(String currentLog, String newIdentifier) {
+        return "Computer System " + newIdentifier + " Log:\n";
+    }
+}
